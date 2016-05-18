@@ -1,0 +1,22 @@
+{
+  "name": "app-auth",
+  "version": "4.1.0",
+  "description": "Application authorization and authentication",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "istanbul cover _mocha",
+    "mocha": "mocha -G -w",
+    "postversion": "git push && git push --tags"
+  },
+  "author": "Jay Morrow <j.morrow@wearetuple.co>",
+  "dependencies": {
+    "access-policy": "git+ssh://git@github.com/TupleAustin/access-policy.git#v3.0.0",
+    "jsonwebtoken": "^5.4.1",
+    "uuid-v4": "^0.1.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.0",
+    "mocha": "^2.3.3"
+  }
+}

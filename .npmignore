@@ -1,0 +1,5 @@
+.npmignore
+circle.yml
+
+coverage/
+test/
