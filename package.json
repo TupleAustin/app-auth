@@ -11,7 +11,7 @@
   },
   "author": "Jay Morrow <j.morrow@wearetuple.co>",
   "dependencies": {
-    "access-policy": "git+ssh://git@github.com/TupleAustin/access-policy.git#v3.0.0",
+    "access-policy": "git+https://github.com/TupleAustin/access-policy.git#v3.0.0",
     "jsonwebtoken": "^5.4.1",
     "uuid-v4": "^0.1.0"
   },
