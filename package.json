@@ -1,5 +1,5 @@
 {
-  "name": "app-auth",
+  "name": "app-policy-auth",
   "version": "4.3.0",
   "description": "Application authorization and authentication",
   "main": "index.js",
