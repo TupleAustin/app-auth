@@ -1,6 +1,6 @@
 {
   "name": "app-policy-auth",
-  "version": "4.3.0",
+  "version": "4.4.0",
   "description": "Application authorization and authentication",
   "main": "index.js",
   "scripts": {
