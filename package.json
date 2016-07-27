@@ -8,7 +8,21 @@
     "mocha": "mocha -G -w",
     "postversion": "git push && git push --tags"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TupleAustin/app-policy-auth.git"
+  },
+  "keywords": [
+    "JWT",
+    "application",
+    "policy",
+    "authorization"
+  ],
   "author": "Tuple Labs, LLC <hello@wearetuple.co>",
+  "bugs": {
+    "url": "https://github.com/TupleAustin/app-policy-auth/issues"
+  },
+  "homepage": "https://github.com/TupleAustin/app-policy-auth#readme",
   "dependencies": {
     "access-policy": "3.1.0",
     "jsonwebtoken": "^5.4.1",
@@ -17,5 +31,6 @@
   "devDependencies": {
     "istanbul": "^0.4.0",
     "mocha": "^2.3.3"
-  }
+  },
+  "license": "MIT"
 }
