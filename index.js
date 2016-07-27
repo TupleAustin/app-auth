@@ -11,7 +11,7 @@ function sign(data, secret, expiration) {
   }
 
   if (!uuid.isUUID(secret)) {
-    throw new TypeError('Incorrect secret type');
+    throw new TypeError('Incorrect secret type, must be UUIDV4');
   }
 
   return jwt.sign(data, secret, {

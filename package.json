@@ -3,15 +3,14 @@
   "version": "4.2.0",
   "description": "Application authorization and authentication",
   "main": "index.js",
-  "private": true,
   "scripts": {
     "test": "istanbul cover _mocha",
     "mocha": "mocha -G -w",
     "postversion": "git push && git push --tags"
   },
-  "author": "Jay Morrow <j.morrow@wearetuple.co>",
+  "author": "Tuple Labs, LLC <hello@wearetuple.co>",
   "dependencies": {
-    "access-policy": "git+https://github.com/TupleAustin/access-policy.git#v3.0.0",
+    "access-policy": "3.1.0",
     "jsonwebtoken": "^5.4.1",
     "uuid-v4": "^0.1.0"
   },
